@@ -1,0 +1,11 @@
+body,html{
+  margin:0;
+  padding:0;
+}
+input{
+  font-size:1.5em;
+  display:bloak;
+  width:200px;
+  height:100px;
+  margin:50px auto;
+}
