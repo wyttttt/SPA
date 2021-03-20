@@ -23,7 +23,7 @@ $(()=>{
 });
 */
   val = val.slice(0,pos)+key+val.slice(pos,val.length);
-  if(/^-?(0|[1-9]\d*)(\.\d*)?([eE][+-]?\d+)?$/.test(val)) e.preventDefault();
+  if(!/^-?(0|[1-9]\d*)(\.\d*)?([eE][+-]?\d+)?$/.test(val)) e.preventDefault();
   });
 $height.keypress();
 
